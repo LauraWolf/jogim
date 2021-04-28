@@ -2,6 +2,8 @@ package sample.model;
 
 import java.util.Random;
 
+/** Classes */
+
 public class Dado {
     private int face;
 

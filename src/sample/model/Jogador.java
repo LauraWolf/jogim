@@ -1,9 +1,13 @@
 package sample.model;
 
+/** Classes */
+
 public class Jogador {
     private String nome;
     private boolean venceu;
     private int totalPontos;
+
+    /** Getter e Setter */
 
     public String getNome() {
         return nome;
@@ -28,6 +32,8 @@ public class Jogador {
     public void setTotalPontos(int totalPontos) {
         this.totalPontos = totalPontos;
     }
+
+    /** ToString */
 
     @Override
     public String toString() {

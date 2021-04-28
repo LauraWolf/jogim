@@ -6,8 +6,12 @@ import sample.model.Jogador;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Classes */
+
 public class Tabuleiro {
     List<Jogador> jogadores;
+
+    /** Getter e Setter */
 
     public Tabuleiro
             (List<String> nomesJogadores){
@@ -42,6 +46,9 @@ public class Tabuleiro {
 
 
     }
+
+    /** ToString */
+
     @Override
     public String toString() {
         return "Tabuleiro{" +
